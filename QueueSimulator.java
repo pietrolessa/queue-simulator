@@ -12,7 +12,7 @@ public class QueueSimulator {
     static double currentTime = 0.0;
     static int count = 100000;
     static int queueSize = 0;
-    static int servers = 1; // Change to 2 for G/G/2/5
+    static int servers = 1; // Change this value to 2 for G/G/2/5
     static int busyServers = 0;
     static int lostClients = 0;
 
